@@ -1,0 +1,13 @@
+<h2 class="text-2xl font-bold mt-5">Search Gift</h2>
+<h3 class="text-sm text-gray-500">Search fift for name or description</h3>
+
+<section class="flex flex-col gap-4" style="width: 80vw;">
+    <input type="text" name="search" id="search" placeholder="Search gift..." 
+    class="mt-3 border border-gray-300 rounded-md p-2 w-full"
+    (keyup.enter)="onSearch(txtSerch.value)"
+    #txtSerch/>
+</section>
+
+<section class="py-5">
+    <gifts-list [gifts]="gifts()"/>
+</section>
