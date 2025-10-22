@@ -29,6 +29,8 @@ GIF search app using Angular and the Giphy API. It allows you to explore trendin
 
 ![Show History](image-4.png)
 
+![Local Storage](image-5.png)
+
 ## ♻️ Reusable code
 
 
